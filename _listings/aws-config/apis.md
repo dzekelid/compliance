@@ -34,7 +34,7 @@ apis:
   tags: Compliance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/compliance/master/_listings/aws-config/action-describecompliancebyconfigrule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/compliance/master/_listings/aws-config/action-describecompliancebyresource-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
