@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Get Compliance Summary By Resource Type
   version: 1.0.0
+  description: Returns the number of resources that are compliant and the number that
+    are noncompliant.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetComplianceSummaryByResourceType&k=1:
+  /?Action=GetComplianceSummaryByResourceType:
     get:
       summary: ' Get Compliance Summary By Resource Type '
       description: Returns the number of resources that are compliant and the number
