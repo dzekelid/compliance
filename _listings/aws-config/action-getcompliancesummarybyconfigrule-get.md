@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Get Compliance Summary By Config Rule
   version: 1.0.0
+  description: "Returns the number of AWS Config rules that are compliant and noncompliant,
+    up to a\n\t\t\tmaximum of 25 for each."
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetComplianceSummaryByConfigRule&k=1:
+  /?Action=GetComplianceSummaryByConfigRule:
     get:
       summary: ' Get Compliance Summary By Config Rule '
       description: "Returns the number of AWS Config rules that are compliant and
