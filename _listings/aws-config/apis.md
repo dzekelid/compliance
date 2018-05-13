@@ -35,15 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/compliance/master/_listings/aws-config/action-getcompliancesummarybyresourcetype-get.md
-- name: AWS Config API Get Compliance Details By Resource
-  description: Returns the evaluation results for the specified AWS resource.
+- name: AWS Config API Get Compliance Summary By Config Rule
+  description: "Returns the number of AWS Config rules that are compliant and noncompliant,
+    up to a\n\t\t\tmaximum of 25 for each."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
   humanURL: https://aws.amazon.com/config/
   baseURL: http:://{host}//
   tags: Compliance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compliance/master/_listings/aws-config/action-getcompliancedetailsbyresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compliance/master/_listings/aws-config/action-getcompliancesummarybyconfigrule-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
