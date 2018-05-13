@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Describe Compliance By Resource
   version: 1.0.0
+  description: Indicates whether the specified AWS resources are compliant.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeComplianceByResource&k=1:
+  /?Action=DescribeComplianceByResource:
     get:
       summary: ' Describe Compliance By Resource '
       description: Indicates whether the specified AWS resources are compliant
