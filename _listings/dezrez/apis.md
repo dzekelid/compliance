@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Compliance
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/compliance/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/compliance/master/_listings/dezrez/apiroleidconfirmcompliancechecks-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/compliance/master/_listings/dezrez/apiroleidconfirmcompliancechecks-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Set the compliance checks on a property marketing
+    role i.e. Valid Epc, Proof of ID or Proof of Ownership.
+  x-api-slug: apiroleidsetcompliancechecks-put
+  description: Set the compliance checks on a property marketing role i.e. valid epc,
+    proof of id or proof of ownership..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/compliance/master/_listings/dezrez/apiroleidsetcompliancechecks-put-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
